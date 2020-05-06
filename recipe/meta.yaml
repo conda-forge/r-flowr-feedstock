@@ -1,4 +1,4 @@
-{% set version = '0.9.10' %}
+{% set version = "0.9.10" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -16,7 +16,7 @@ source:
 
 build:
   noarch: generic
-  number: 1001
+  number: 1002
 
   rpaths:
     - lib/R/lib/
@@ -43,12 +43,13 @@ test:
 about:
   home: https://github.com/sahilseth/flowr
   license: MIT
-  summary: This framework allows you to design and implement complex pipelines, and deploy them
-    on your institution's computing cluster. This has been built keeping in mind the
-    needs of bioinformatics workflows. However, it is easily extendable to any field
-    where a series of steps (shell commands) are to be executed in a (work)flow.
+  summary: This framework allows you to design and implement complex pipelines, and deploy them on your institution's computing cluster. This has been built keeping in mind the needs of bioinformatics workflows. However, it is easily extendable to any field where a series of steps (shell commands) are to be executed in a
+    (work)flow.
   license_family: MIT
 
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
+    - LICENSE
 extra:
   recipe-maintainers:
     - conda-forge/r
