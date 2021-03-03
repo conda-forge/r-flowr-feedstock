@@ -1,4 +1,4 @@
-{% set version = "0.9.10" %}
+{% set version = "0.9.11" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,11 +12,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/flowr_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/flowr/flowr_{{ version }}.tar.gz
-  sha256: af5dce8b7fa8cae55da91ef07d10b2075e02e815e55bb48c5847a0f11cd4b2a2
+  sha256: 25fe3fb85b20442d9c24658609a0a4c3dabdfae37203e1e1da94e1ff76766bb1
 
 build:
   noarch: generic
-  number: 1002
+  number: 0
 
   rpaths:
     - lib/R/lib/
