@@ -1,11 +1,11 @@
-About r-flowr
-=============
+About r-flowr-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-flowr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/flow-r/flowr
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-flowr-feedstock/blob/main/LICENSE.txt)
 
 Summary: This framework allows you to design and implement complex pipelines, and deploy them on your institution's computing cluster. This has been built keeping in mind the needs of bioinformatics workflows. However, it is easily extendable to any field where a series of steps (shell commands) are to be executed in a (work)flow.
 
